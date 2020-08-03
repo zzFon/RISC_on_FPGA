@@ -1,0 +1,13 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/constrs_1/new/cpu.xdc rfile:../../../project_5.srcs/constrs_1/new/cpu.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H4 [get_ports osc1]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN D14 IOSTANDARD LVCMOS33} [get_ports mclr];
+set_property src_info {type:XDC file:1 line:19 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J1 [get_ports {RA[0]}]
+set_property src_info {type:XDC file:1 line:20 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A13 [get_ports {RA[1]}]
+set_property src_info {type:XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N1 [get_ports {RA[2]}]
+set_property src_info {type:XDC file:1 line:22 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J4 [get_ports {RA[3]}]

@@ -1,0 +1,88 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF5EF462BF5EF462B",
+      "device": "xc7s15ftgb196-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "pic16c56_1": "",
+      "dist_mem_gen_1": ""
+    },
+    "ports": {
+      "mclr": {
+        "direction": "I"
+      },
+      "osc1": {
+        "direction": "I"
+      },
+      "RA": {
+        "direction": "IO",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "pic16c56_1": {
+        "vlnv": "xilinx.com:user:pic16c56:1.3",
+        "xci_name": "design_1_pic16c56_1_0"
+      },
+      "dist_mem_gen_1": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "design_1_dist_mem_gen_1_0",
+        "parameters": {
+          "coefficient_file": {
+            "value": "output.coe"
+          },
+          "data_width": {
+            "value": "12"
+          },
+          "default_data_radix": {
+            "value": "2"
+          },
+          "depth": {
+            "value": "1024"
+          },
+          "memory_type": {
+            "value": "rom"
+          }
+        }
+      }
+    },
+    "nets": {
+      "mclr_1": {
+        "ports": [
+          "mclr",
+          "pic16c56_1/mclr"
+        ]
+      },
+      "osc1_1": {
+        "ports": [
+          "osc1",
+          "pic16c56_1/osc1"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "RA",
+          "pic16c56_1/RA"
+        ]
+      },
+      "pic16c56_1_romaddr": {
+        "ports": [
+          "pic16c56_1/romaddr",
+          "dist_mem_gen_1/a"
+        ]
+      },
+      "dist_mem_gen_1_spo": {
+        "ports": [
+          "dist_mem_gen_1/spo",
+          "pic16c56_1/romdata"
+        ]
+      }
+    }
+  }
+}

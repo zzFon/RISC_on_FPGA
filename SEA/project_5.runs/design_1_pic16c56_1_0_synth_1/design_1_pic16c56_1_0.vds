@@ -1,0 +1,627 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 30 12:43:12 2020
+# Process ID: 26476
+# Current directory: C:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.runs/design_1_pic16c56_1_0_synth_1
+# Command line: vivado.exe -log design_1_pic16c56_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_pic16c56_1_0.tcl
+# Log file: C:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.runs/design_1_pic16c56_1_0_synth_1/design_1_pic16c56_1_0.vds
+# Journal file: C:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.runs/design_1_pic16c56_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_pic16c56_1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 319.402 ; gain = 74.941
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/core'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 350.609 ; gain = 31.207
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.cache/ip 
+Command: synth_design -top design_1_pic16c56_1_0 -part xc7s15ftgb196-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24176 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 466.105 ; gain = 100.930
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_pic16c56_1_0' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ip/design_1_pic16c56_1_0/synth/design_1_pic16c56_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'pic16c56' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/pic16c56.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/decoder.v:11]
+	Parameter NOP bound to: 12'b000000000000 
+	Parameter MOVWF bound to: 7'b0000001 
+	Parameter CLRW bound to: 12'b000001000000 
+	Parameter CLRF bound to: 7'b0000011 
+	Parameter SUBWF bound to: 6'b000010 
+	Parameter DECF bound to: 6'b000011 
+	Parameter IORWF bound to: 6'b000100 
+	Parameter ANDWF bound to: 6'b000101 
+	Parameter XORWF bound to: 6'b000110 
+	Parameter ADDWF bound to: 6'b000111 
+	Parameter MOVF bound to: 6'b001000 
+	Parameter COMF bound to: 6'b001001 
+	Parameter INCF bound to: 6'b001010 
+	Parameter DECFSZ bound to: 6'b001011 
+	Parameter RRF bound to: 6'b001100 
+	Parameter RLF bound to: 6'b001101 
+	Parameter SWAPF bound to: 6'b001110 
+	Parameter INCFSZ bound to: 6'b001111 
+	Parameter BCF bound to: 4'b0100 
+	Parameter BSF bound to: 4'b0101 
+	Parameter BTFSC bound to: 4'b0110 
+	Parameter BTFSS bound to: 4'b0111 
+	Parameter OPTION bound to: 12'b000000000010 
+	Parameter SLEEP bound to: 12'b000000000011 
+	Parameter CLRWDT bound to: 12'b000000000100 
+	Parameter RETLW bound to: 4'b1000 
+	Parameter CALL bound to: 4'b1001 
+	Parameter GOTO bound to: 3'b101 
+	Parameter MOVLW bound to: 4'b1100 
+	Parameter IORLW bound to: 4'b1101 
+	Parameter ANDLW bound to: 4'b1110 
+	Parameter XORLW bound to: 4'b1111 
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/decoder.v:250]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (1#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/decoder.v:11]
+INFO: [Synth 8-6157] synthesizing module 'distribute' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:10]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:361]
+WARNING: [Synth 8-5788] Register rtccount_reg in module distribute is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:225]
+WARNING: [Synth 8-5788] Register frs_reg_reg in module distribute is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:227]
+WARNING: [Synth 8-5788] Register RA_out_reg in module distribute is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:229]
+WARNING: [Synth 8-5788] Register RB_out_reg in module distribute is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:231]
+WARNING: [Synth 8-5788] Register pc_reg in module distribute is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:326]
+INFO: [Synth 8-6155] done synthesizing module 'distribute' (2#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/distribute.v:10]
+INFO: [Synth 8-6157] synthesizing module 'alu' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:1]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:283]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:284]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:285]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:286]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:287]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:288]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:289]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:290]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:297]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:298]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:299]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:300]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:301]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:302]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:303]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:304]
+WARNING: [Synth 8-6090] variable 'skip' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:310]
+WARNING: [Synth 8-6090] variable 'skip' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:311]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:316]
+WARNING: [Synth 8-6090] variable 'skip' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:316]
+WARNING: [Synth 8-6090] variable 'skip' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:317]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:324]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:329]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:334]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:339]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:344]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:352]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:361]
+WARNING: [Synth 8-6090] variable 'yi' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:368]
+WARNING: [Synth 8-6014] Unused sequential element yi_dc_reg was removed.  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:130]
+WARNING: [Synth 8-6014] Unused sequential element c_reg_reg was removed.  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:140]
+WARNING: [Synth 8-5788] Register yi_reg in module alu is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:99]
+WARNING: [Synth 8-5788] Register skip_reg in module alu is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (3#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IO_reg' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/IO_reg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IO_reg' (4#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/IO_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'timer' [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/timer.v:1]
+	Parameter S1 bound to: 8'b00000001 
+	Parameter S2 bound to: 8'b00000010 
+	Parameter S3 bound to: 8'b00000100 
+	Parameter S4 bound to: 8'b00001000 
+	Parameter S5 bound to: 8'b00010000 
+	Parameter S6 bound to: 8'b00100000 
+	Parameter S7 bound to: 8'b01000000 
+	Parameter S8 bound to: 8'b10000000 
+	Parameter idle bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'timer' (5#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/timer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pic16c56' (6#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ipshared/0809/pic16c56.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_pic16c56_1_0' (7#1) [c:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.srcs/sources_1/bd/design_1/ip/design_1_pic16c56_1_0/synth/design_1_pic16c56_1_0.v:58]
+WARNING: [Synth 8-3331] design distribute has unconnected port nop
+WARNING: [Synth 8-3331] design distribute has unconnected port sleep
+WARNING: [Synth 8-3331] design decoder has unconnected port fsr[7]
+WARNING: [Synth 8-3331] design decoder has unconnected port fsr[6]
+WARNING: [Synth 8-3331] design decoder has unconnected port fsr[5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 525.402 ; gain = 160.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 525.402 ; gain = 160.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 525.402 ; gain = 160.227
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "nop0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "movwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clrw0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clrf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "subwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "decf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "andwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "xorwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "addwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "iorwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "movf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "comf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "incf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "decfsz0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rrf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rlf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "swapf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "incfsz0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "bcf0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bsf0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "btfsc0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "btfss0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "option0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sleep0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clrwdt0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "retlw0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "call0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "goto0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "movlw0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "iorlw0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "andlw0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "xorlw0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "regfile_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rtccount" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "trisa" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "trisb" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "regfile_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regfile_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rtccount" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "trisa" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "trisb" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stacklevel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stacklevel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stack1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stack2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 564.867 ; gain = 199.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 37    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 42    
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 9     
+	   3 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   8 Input      8 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 116   
+	   6 Input      1 Bit        Muxes := 25    
+	   3 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	  27 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module decoder 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 34    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module distribute 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 34    
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 9     
+	   3 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 25    
+	   2 Input      1 Bit        Muxes := 46    
+	   3 Input      1 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 29    
+	  13 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+	  27 Input      1 Bit        Muxes := 1     
+Module timer 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+	   8 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "nop0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "movwf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clrw0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clrf0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "option0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sleep0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clrwdt0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3331] design distribute has unconnected port nop
+WARNING: [Synth 8-3331] design distribute has unconnected port sleep
+WARNING: [Synth 8-3331] design decoder has unconnected port fsr[7]
+WARNING: [Synth 8-3331] design decoder has unconnected port fsr[6]
+WARNING: [Synth 8-3331] design decoder has unconnected port fsr[5]
+INFO: [Synth 8-3886] merging instance 'inst/A1/bbb_reg[0]' (FD) to 'inst/A1/d_reg'
+INFO: [Synth 8-3886] merging instance 'inst/A1/bbb_reg[1]' (FD) to 'inst/A1/longk_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/bbb_reg[2]' (FD) to 'inst/A1/longk_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/A5/state_reg[7]' (FDCE) to 'inst/A5/state_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/A5/state_reg[6] )
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[0]' (FD) to 'inst/A1/k_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/f_reg[0]' (FD) to 'inst/A1/k_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[1]' (FD) to 'inst/A1/k_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/f_reg[1]' (FD) to 'inst/A1/k_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[2]' (FD) to 'inst/A1/k_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/f_reg[2]' (FD) to 'inst/A1/k_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[3]' (FD) to 'inst/A1/k_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/f_reg[3]' (FD) to 'inst/A1/k_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[4]' (FD) to 'inst/A1/k_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/f_reg[4]' (FD) to 'inst/A1/k_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[5]' (FD) to 'inst/A1/d_reg'
+INFO: [Synth 8-3886] merging instance 'inst/A1/k_reg[5]' (FD) to 'inst/A1/d_reg'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[6]' (FD) to 'inst/A1/k_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/A1/longk_reg[7]' (FD) to 'inst/A1/k_reg[7]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[0]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[1]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[2]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[3]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[4]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[5]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[6]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[7]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[8]_LDC )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/A2/pc_reg[9]_LDC )
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[9]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[8]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[7]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[6]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[5]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[4]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[3]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[2]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[1]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[0]_LDC) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[9]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[8]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[7]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[6]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[5]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[4]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[3]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[2]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[1]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+INFO: [Synth 8-3332] Sequential element (inst/A2/pc_reg[0]_C) is unused and will be removed from module design_1_pic16c56_1_0.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_45' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_46' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_47' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_48' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_49' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_50' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_51' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_52' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_53' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_54' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_55' to logic
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'A4i_56' to logic
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     6|
+|2     |LUT1   |    17|
+|3     |LUT2   |    96|
+|4     |LUT3   |    41|
+|5     |LUT4   |    35|
+|6     |LUT5   |    61|
+|7     |LUT6   |   313|
+|8     |MUXF7  |     1|
+|9     |FDCE   |   268|
+|10    |FDPE   |    31|
+|11    |FDRE   |    73|
+|12    |LDC    |     9|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------+------+
+|      |Instance |Module     |Cells |
++------+---------+-----------+------+
+|1     |top      |           |   951|
+|2     |  inst   |pic16c56   |   950|
+|3     |    A1   |decoder    |   334|
+|4     |    A2   |distribute |   538|
+|5     |    A3   |alu        |    42|
+|6     |    A4   |IO_reg     |    12|
+|7     |    A5   |timer      |    24|
++------+---------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 12 critical warnings and 49 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 701.078 ; gain = 335.902
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 734.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LDC => LDCE: 9 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+196 Infos, 50 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 734.195 ; gain = 381.055
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 734.195 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.runs/design_1_pic16c56_1_0_synth_1/design_1_pic16c56_1_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1131.320 ; gain = 397.125
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_pic16c56_1_0, cache-ID = 1ae48d0b43fe95bf
+INFO: [Coretcl 2-1174] Renamed 6 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1135.707 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/53456/OneDrive/Documents/VivadoProject/SEA-master/SEA/project_5.runs/design_1_pic16c56_1_0_synth_1/design_1_pic16c56_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_pic16c56_1_0_utilization_synth.rpt -pb design_1_pic16c56_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 30 12:45:35 2020...
