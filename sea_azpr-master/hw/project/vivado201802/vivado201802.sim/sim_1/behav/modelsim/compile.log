@@ -1,0 +1,85 @@
+# do {chip_top_test_compile.do} 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# 
+# Modifying modelsim.ini
+# ** Error: Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# -- Compiling module bus
+# -- Compiling module bus_addr_dec
+# -- Compiling module bus_arbiter
+# -- Compiling module bus_if
+# -- Compiling module bus_master_mux
+# -- Compiling module bus_slave_mux
+# -- Compiling module chip
+# -- Compiling module chip_top
+# -- Compiling module clk_gen
+# -- Compiling module cpu
+# -- Compiling module ctrl
+# -- Compiling module decoder
+# -- Compiling module ex_reg
+# -- Compiling module ex_stage
+# -- Compiling module gpio
+# -- Compiling module gpr
+# -- Compiling module id_reg
+# -- Compiling module id_stage
+# -- Compiling module if_reg
+# -- Compiling module if_stage
+# -- Compiling module mem_ctrl
+# -- Compiling module mem_reg
+# -- Compiling module mem_stage
+# -- Compiling module rom
+# -- Compiling module spm
+# -- Compiling module timer
+# -- Compiling module x_s3e_dcm
+# ** Error: ../../../../../../rtl_sea/top/lib/x_s3e_dpram.v(40): 'doa' already declared in this scope (x_s3e_dpram).
+# ** Error: ../../../../../../rtl_sea/top/lib/x_s3e_dpram.v(40): 'dob' already declared in this scope (x_s3e_dpram).
+# -- Compiling module x_s3e_sprom
+# -- Compiling module chip_top_test
+# child process exited abnormally
+# Error in macro ./chip_top_test_compile.do line 48
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# -- Compiling module bus
+# -- Compiling module bus_addr_dec
+# -- Compiling module bus_arbiter
+# -- Compiling module bus_if
+# -- Compiling module bus_master_mux
+# -- Compiling module bus_slave_mux
+# -- Compiling module chip
+# -- Compiling module chip_top
+# -- Compiling module clk_gen
+# -- Compiling module cpu
+# -- Compiling module ctrl
+# -- Compiling module decoder
+# -- Compiling module ex_reg
+# -- Compiling module ex_stage
+# -- Compiling module gpio
+# -- Compiling module gpr
+# -- Compiling module id_reg
+# -- Compiling module id_stage
+# -- Compiling module if_reg
+# -- Compiling module if_stage
+# -- Compiling module mem_ctrl
+# -- Compiling module mem_reg
+# -- Compiling module mem_stage
+# -- Compiling module rom
+# -- Compiling module spm
+# -- Compiling module timer
+# -- Compiling module x_s3e_dcm
+# ** Error: ../../../../../../rtl_sea/top/lib/x_s3e_dpram.v(40): 'doa' already declared in this scope (x_s3e_dpram).
+# ** Error: ../../../../../../rtl_sea/top/lib/x_s3e_dpram.v(40): 'dob' already declared in this scope (x_s3e_dpram).
+# -- Compiling module x_s3e_sprom
+# -- Compiling module chip_top_test
+# child process exited abnormally
+#     while executing
+# "exec {D:\QuartusII13\modelsim_ase\win32aloem\vlog.EXE} -64 -incr -work xil_defaultlib +incdir+../../../../../../rtl_sea/top/include +incdir+../../../...."
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 115)
+#     invoked from within
+# "D:\\QuartusII13\\modelsim_ase\\win32aloem\\vlog -64 -incr -work xil_defaultlib  "+incdir+../../../../../../rtl_sea/top/include" "+incdir+../../../../...."

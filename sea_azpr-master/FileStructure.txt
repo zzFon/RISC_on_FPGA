@@ -1,0 +1,2 @@
+hw: RTL代码(rtl_original/rtl_sea)，约束文件(constraint)，vivado工程(project-vivado201802)
+sw: 基于AZPR指令集的汇编器(azprasm)，汇编示例程序(Sample_Program_SEA/Sample_Program_Original)

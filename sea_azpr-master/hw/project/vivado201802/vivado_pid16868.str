@@ -1,0 +1,157 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 16868
+License: Customer
+
+Current time: 	Thu Jul 30 20:54:08 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2736x1824
+Screen resolution (DPI): 240
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=30
+
+Java version: 	9.0.4 64-bit
+Java home: 	F:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	F:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ZZF
+User home directory: C:/Users/a
+User working directory: F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Xilinx/Vivado
+HDI_APPROOT: F:/Xilinx/Vivado/2018.3
+RDI_DATADIR: F:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: F:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/a/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/a/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/a/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	F:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802/vivado.log
+Vivado journal file location: 	F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802/vivado.jou
+Engine tmp dir: 	F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802/.Xil/Vivado-16868-DESKTOP-QTJE6DA
+
+Xilinx Environment Variables
+----------------------------
+ALTERAOCLSDKROOT: D:\QuartusPrimeLite\15.1\hld
+ANDROID_SDK_HOME: E:\Android SDK\
+XILINX: F:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: F:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_FOR_ALTIUM_OVERRIDE:  
+XILINX_PLANAHEAD: F:/Xilinx/Vivado/2018.3
+XILINX_SDK: F:/Xilinx/SDK/2018.3
+XILINX_VIVADO: F:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: F:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 579 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2426 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 96 MB (+98697kb) [00:00:30]
+// [Engine Memory]: 572 MB (+448592kb) [00:00:30]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: F:\FPGA\sea_azpr-master\sea_azpr-master\hw\project\vivado201802\vivado201802.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802/vivado201802.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802/vivado201802.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 665 MB. GUI used memory: 67 MB. Current time: 7/30/20, 8:54:28 PM CST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 121 MB (+21090kb) [00:00:59]
+// [Engine Memory]: 713 MB (+117590kb) [00:00:59]
+// WARNING: HEventQueue.dispatchEvent() is taking  14863 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3174 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1065 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1158 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 118 MB. Current time: 7/30/20, 8:54:51 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8108 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 792 MB (+45136kb) [00:01:19]
+// Project name: vivado201802; location: F:/FPGA/sea_azpr-master/sea_azpr-master/hw/project/vivado201802; part: xc7s15ftgb196-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:46 ; elapsed = 00:00:41 . Memory (MB): peak = 755.313 ; gain = 152.633 
+// [GUI Memory]: 130 MB (+2791kb) [00:01:21]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 36 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 5); // B (D, cp)
+// PAPropertyPanels.initPanels (system.xdc) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, system.xdc]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, system.xdc]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 19 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 308ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 926 ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1675ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1675 ms.
+// PAPropertyPanels.initPanels (chip_top.v) elapsed time: 1.4s
+// Elapsed time: 1037 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chip_top (chip_top.v)]", 2, true); // B (D, cp) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1599 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chip_top (chip_top.v), clk_gen : clk_gen (clk_gen.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chip_top (chip_top.v), clk_gen : clk_gen (clk_gen.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chip_top (chip_top.v), clk_gen : clk_gen (clk_gen.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chip_top (chip_top.v), clk_gen : clk_gen (clk_gen.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system.xdc", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chip_top.v", 2); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 802 MB. GUI used memory: 77 MB. Current time: 7/30/20, 9:24:49 PM CST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 755 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1599 ms. Increasing delay to 4797 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1085 ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1087 ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 802 MB. GUI used memory: 72 MB. Current time: 7/30/20, 9:54:51 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1743 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4175 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2483 ms. Increasing delay to 7449 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4210 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3978 ms. Increasing delay to 11934 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4493 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 804 ms. Decreasing delay to 2804 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1963 ms. Increasing delay to 5889 ms.

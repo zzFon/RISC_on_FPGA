@@ -1,0 +1,605 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\FPGA\sea_azpr-master\sea_azpr-master\hw\project\vivado201802\vivado201802.sim\sim_1\behav\modelsim
+valu
+!i10b 1
+!s100 o;OBMh5URz8U759[aVTOe0
+I[F:bSCU@>FFcFN[DfG4Yj3
+VIFgM3?8MegPO8FF=N39D[1
+Z1 dF:\FPGA\sea_azpr-master\sea_azpr-master\hw\project\vivado201802\vivado201802.sim\sim_1\behav\modelsim
+Z2 w1595516262
+8../../../../../../rtl_sea/cpu/rtl/alu.v
+F../../../../../../rtl_sea/cpu/rtl/alu.v
+L0 20
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z4 !s108 1595676070.954000
+Z5 !s107 ../../../../../../rtl_sea/cpu/include/spm.h|../../../../../../rtl_sea/cpu/include/isa.h|../../../../../../rtl_sea/io/gpio/include/gpio.h|../../../../../../rtl_sea/io/uart/include/uart.h|../../../../../../rtl_sea/io/timer/include/timer.h|../../../../../../rtl_sea/io/rom/include/rom.h|../../../../../../rtl_sea/bus/include/bus.h|../../../../../../rtl_sea/cpu/include/cpu.h|../../../../../../rtl_sea/top/include/stddef.h|../../../../../../rtl_sea/top/include/global_config.h|../../../../../../rtl_sea/top/include/nettype.h|../../../../../../rtl_sea/top/test/chip_top_test.v|../../../../../../rtl_sea/top/lib/x_s3e_sprom.v|../../../../../../rtl_sea/top/lib/x_s3e_dpram.v|../../../../../../rtl_sea/top/lib/x_s3e_dcm.v|../../../../../../rtl_sea/io/timer/rtl/timer.v|../../../../../../rtl_sea/cpu/rtl/spm.v|../../../../../../rtl_sea/io/rom/rtl/rom.v|../../../../../../rtl_sea/cpu/rtl/mem_stage.v|../../../../../../rtl_sea/cpu/rtl/mem_reg.v|../../../../../../rtl_sea/cpu/rtl/mem_ctrl.v|../../../../../../rtl_sea/cpu/rtl/if_stage.v|../../../../../../rtl_sea/cpu/rtl/if_reg.v|../../../../../../rtl_sea/cpu/rtl/id_stage.v|../../../../../../rtl_sea/cpu/rtl/id_reg.v|../../../../../../rtl_sea/cpu/rtl/gpr.v|../../../../../../rtl_sea/io/gpio/rtl/gpio.v|../../../../../../rtl_sea/cpu/rtl/ex_stage.v|../../../../../../rtl_sea/cpu/rtl/ex_reg.v|../../../../../../rtl_sea/cpu/rtl/decoder.v|../../../../../../rtl_sea/cpu/rtl/ctrl.v|../../../../../../rtl_sea/cpu/rtl/cpu.v|../../../../../../rtl_sea/top/rtl/clk_gen.v|../../../../../../rtl_sea/top/rtl/chip_top.v|../../../../../../rtl_sea/top/rtl/chip.v|../../../../../../rtl_sea/bus/rtl/bus_slave_mux.v|../../../../../../rtl_sea/bus/rtl/bus_master_mux.v|../../../../../../rtl_sea/cpu/rtl/bus_if.v|../../../../../../rtl_sea/bus/rtl/bus_arbiter.v|../../../../../../rtl_sea/bus/rtl/bus_addr_dec.v|../../../../../../rtl_sea/bus/rtl/bus.v|../../../../../../rtl_sea/cpu/rtl/alu.v|
+Z6 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../../../rtl_sea/top/include|+incdir+../../../../../../rtl_sea/cpu/include|+incdir+../../../../../../rtl_sea/bus/include|+incdir+../../../../../../rtl_sea/io/gpio/include|+incdir+../../../../../../rtl_sea/io/timer/include|+incdir+../../../../../../rtl_sea/io/rom/include|+incdir+../../../../../../rtl_sea/io/uart/include|../../../../../../rtl_sea/cpu/rtl/alu.v|../../../../../../rtl_sea/bus/rtl/bus.v|../../../../../../rtl_sea/bus/rtl/bus_addr_dec.v|../../../../../../rtl_sea/bus/rtl/bus_arbiter.v|../../../../../../rtl_sea/cpu/rtl/bus_if.v|../../../../../../rtl_sea/bus/rtl/bus_master_mux.v|../../../../../../rtl_sea/bus/rtl/bus_slave_mux.v|../../../../../../rtl_sea/top/rtl/chip.v|../../../../../../rtl_sea/top/rtl/chip_top.v|../../../../../../rtl_sea/top/rtl/clk_gen.v|../../../../../../rtl_sea/cpu/rtl/cpu.v|../../../../../../rtl_sea/cpu/rtl/ctrl.v|../../../../../../rtl_sea/cpu/rtl/decoder.v|../../../../../../rtl_sea/cpu/rtl/ex_reg.v|../../../../../../rtl_sea/cpu/rtl/ex_stage.v|../../../../../../rtl_sea/io/gpio/rtl/gpio.v|../../../../../../rtl_sea/cpu/rtl/gpr.v|../../../../../../rtl_sea/cpu/rtl/id_reg.v|../../../../../../rtl_sea/cpu/rtl/id_stage.v|../../../../../../rtl_sea/cpu/rtl/if_reg.v|../../../../../../rtl_sea/cpu/rtl/if_stage.v|../../../../../../rtl_sea/cpu/rtl/mem_ctrl.v|../../../../../../rtl_sea/cpu/rtl/mem_reg.v|../../../../../../rtl_sea/cpu/rtl/mem_stage.v|../../../../../../rtl_sea/io/rom/rtl/rom.v|../../../../../../rtl_sea/cpu/rtl/spm.v|../../../../../../rtl_sea/io/timer/rtl/timer.v|../../../../../../rtl_sea/top/lib/x_s3e_dcm.v|../../../../../../rtl_sea/top/lib/x_s3e_dpram.v|../../../../../../rtl_sea/top/lib/x_s3e_sprom.v|../../../../../../rtl_sea/top/test/chip_top_test.v|
+!s101 -O0
+Z7 o-work xil_defaultlib -O0
+Z8 !s92 -work xil_defaultlib +incdir+../../../../../../rtl_sea/top/include +incdir+../../../../../../rtl_sea/cpu/include +incdir+../../../../../../rtl_sea/bus/include +incdir+../../../../../../rtl_sea/io/gpio/include +incdir+../../../../../../rtl_sea/io/timer/include +incdir+../../../../../../rtl_sea/io/rom/include +incdir+../../../../../../rtl_sea/io/uart/include -O0
+vbus
+!i10b 1
+!s100 hnC6VnKQ8FORBo6F::5HF1
+ITMlf^cg^lI?EALEUh?S=<3
+VF5_Xd7ok[R_DKMk=5PiBG2
+R1
+R2
+8../../../../../../rtl_sea/bus/rtl/bus.v
+F../../../../../../rtl_sea/bus/rtl/bus.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vbus_addr_dec
+!i10b 1
+!s100 Ijj_RS1OR?1<D6kVk8EE_0
+I47;@iS7S?L5zAiZQz:fjD2
+VnCdW_7XzkQ^[4[XeAa@gn2
+R1
+R2
+8../../../../../../rtl_sea/bus/rtl/bus_addr_dec.v
+F../../../../../../rtl_sea/bus/rtl/bus_addr_dec.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vbus_arbiter
+!i10b 1
+!s100 RLjnGhgI1VW:BQ:WPKij?3
+I_9EHTd1ddoKgCzlPm2fA?3
+VooeD>o[o6k;=`Z3;0hN>S0
+R1
+R2
+8../../../../../../rtl_sea/bus/rtl/bus_arbiter.v
+F../../../../../../rtl_sea/bus/rtl/bus_arbiter.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vbus_if
+!i10b 1
+!s100 ojjSingNko_V_MXAS_^fY0
+IWOVg<6<EZQ81M`QL<ndij3
+VKBi<G;D>am3YF601Wab1I0
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/bus_if.v
+F../../../../../../rtl_sea/cpu/rtl/bus_if.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vbus_master_mux
+!i10b 1
+!s100 6aKiGG0kdhkCVR:?i`QGg3
+IHMAzfkimAmYg?EA6d0z?Q0
+VlifOLl5;XYRDMkVEnJNH=1
+R1
+R2
+8../../../../../../rtl_sea/bus/rtl/bus_master_mux.v
+F../../../../../../rtl_sea/bus/rtl/bus_master_mux.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vbus_slave_mux
+!i10b 1
+!s100 `0X@nGnlh665[<WS<>Ehd0
+IciM1OZmM2h4AfNb9MSU<n3
+V1lJleEcOD7AQ0AV]n^5ia3
+R1
+R2
+8../../../../../../rtl_sea/bus/rtl/bus_slave_mux.v
+F../../../../../../rtl_sea/bus/rtl/bus_slave_mux.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vchip
+!i10b 1
+!s100 [9:V=[Y5fZ]P]6hi17[cM0
+IJJOS5CN?`WQSQT3Nm1^Ao1
+VkoP05e=z4FHConEd^U57U0
+R1
+R2
+8../../../../../../rtl_sea/top/rtl/chip.v
+F../../../../../../rtl_sea/top/rtl/chip.v
+L0 25
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vchip_top
+!i10b 1
+!s100 8F<a^m>E4_fRocYWfkM2A3
+IZ6O;Gn5h=ScTemoleEkjM0
+VU0Qki<`m]_Q:Bb^O00zU[1
+R1
+R2
+8../../../../../../rtl_sea/top/rtl/chip_top.v
+F../../../../../../rtl_sea/top/rtl/chip_top.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vchip_top_test
+!i10b 1
+!s100 0e:83C>7`Qz]URi[g`kg43
+I1S0fR0SUA9_NmCgnlNP2K0
+V4CWl7b50lA>OZB:Y5]XJU3
+R1
+w1595676066
+8../../../../../../rtl_sea/top/test/chip_top_test.v
+F../../../../../../rtl_sea/top/test/chip_top_test.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vclk_gen
+!i10b 1
+!s100 7OW:il=db6Z40gkBnFAJ22
+IQNPm[;@TAUjmll76PYUOA2
+VJd6JdEa[5G[1>oGUGSeC;3
+R1
+R2
+8../../../../../../rtl_sea/top/rtl/clk_gen.v
+F../../../../../../rtl_sea/top/rtl/clk_gen.v
+L0 17
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vcpu
+!i10b 1
+!s100 U_T^E3M3<m[o27A3dR9L<3
+IMXPhX@>c>A@m7G>a;f<R]0
+V[eDW8V0N9nXP1[J^[EILz2
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/cpu.v
+F../../../../../../rtl_sea/cpu/rtl/cpu.v
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vctrl
+!i10b 1
+!s100 EO>7SM1aIb:z=1[;2d@m]0
+I>BSW_RlbzBLeQ3k<FJ1jI2
+V=?HADNd`aNfEB3X^8j>JC2
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/ctrl.v
+F../../../../../../rtl_sea/cpu/rtl/ctrl.v
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vdecoder
+!i10b 1
+!s100 E<Nom]a=5E8[2TYYNH[@R0
+I^:CA5:SANcaj4H6TEOQm:0
+VU]Z]bP2o`T^<0FQl0Ho[l0
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/decoder.v
+F../../../../../../rtl_sea/cpu/rtl/decoder.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vex_reg
+!i10b 1
+!s100 W8GMgD^d[HKM]`8UTohGC0
+I2il]9_Jd@J>G@m8GP<6AG1
+VaLDXb[T>h<SgZGe?e6BH;0
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/ex_reg.v
+F../../../../../../rtl_sea/cpu/rtl/ex_reg.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vex_stage
+!i10b 1
+!s100 @ge3Ag89CN?1dZ:PI;nzQ0
+ID1V>gj3;;VzhI?kAZ:68]2
+VPJl6ajn0[1gK9oa7O@Qh?0
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/ex_stage.v
+F../../../../../../rtl_sea/cpu/rtl/ex_stage.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vgpio
+!i10b 1
+!s100 Ro42X1]V[G0o`B?>XkLX:1
+IQXbAd7`Y?EnnhhSllgOif1
+V1lNGg8ce3Nz[>mho[<6>n0
+R1
+R2
+8../../../../../../rtl_sea/io/gpio/rtl/gpio.v
+F../../../../../../rtl_sea/io/gpio/rtl/gpio.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vgpr
+!i10b 1
+!s100 O=40:M;IM:3DT4Go8<aQY0
+I9zL40hcT6?N0ilz>;IO[=3
+VgF_jSb?m>HQLcQEWH58@L0
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/gpr.v
+F../../../../../../rtl_sea/cpu/rtl/gpr.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vid_reg
+!i10b 1
+!s100 2=4W3Ag];i3H8Tl01VAUL2
+Izf5P@:9NMeI`7j<ah7g<;1
+VXo:Nzk=WB_>cF@PS9^85:3
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/id_reg.v
+F../../../../../../rtl_sea/cpu/rtl/id_reg.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vid_stage
+!i10b 1
+!s100 [IiN>_:dP5FXLU9HRdAIU0
+IPa;_2OSna^G1;V:j[[BdX3
+V2aEUZA6hE:nUWe@k<z_7z0
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/id_stage.v
+F../../../../../../rtl_sea/cpu/rtl/id_stage.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vif_reg
+!i10b 1
+!s100 8YPA3LOYXI1C`oh:>L8EZ1
+IVj<Pi_lY?kh4I`R1cCQ7^3
+V?YWcg3`<?f@P?QAOY3CJ22
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/if_reg.v
+F../../../../../../rtl_sea/cpu/rtl/if_reg.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vif_stage
+!i10b 1
+!s100 _2I@6Il2<[2h7Y:fao:LK3
+IgYCmh=?;bC41<O;kFHB`03
+Vll;OQmVLDWfP=:`TQIkzn3
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/if_stage.v
+F../../../../../../rtl_sea/cpu/rtl/if_stage.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vmem_ctrl
+!i10b 1
+!s100 ]0gzaRA`G^kkzGQJmM=ih1
+IIDDj8Q>Z@<zZ7?]UkPLnI0
+V3[Fkf=QM>IUZGb9L^<4YS2
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/mem_ctrl.v
+F../../../../../../rtl_sea/cpu/rtl/mem_ctrl.v
+L0 22
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vmem_reg
+!i10b 1
+!s100 2B;n2Wh4]Kegj;LWa]2EU0
+IVeQZ4;ikZ6in`]nAW?<fF2
+V?WdZg2AR9?CM`hLOz1A0M1
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/mem_reg.v
+F../../../../../../rtl_sea/cpu/rtl/mem_reg.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vmem_stage
+!i10b 1
+!s100 4n]_W0<Y@6?3o?nQ3TGQH1
+I2V5lIVd2YFD9I6TUeizAV3
+VgJfX<^P]?B^12DcjdLHJI2
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/mem_stage.v
+F../../../../../../rtl_sea/cpu/rtl/mem_stage.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vrom
+!i10b 1
+!s100 CWUU2>VdkIjU4T87Y>P_H3
+IURU9WgJ;8enfH[L1l^4@=3
+VV0QKPn:>akNV9J1>C<n2V0
+R1
+R2
+8../../../../../../rtl_sea/io/rom/rtl/rom.v
+F../../../../../../rtl_sea/io/rom/rtl/rom.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vspm
+!i10b 1
+!s100 I4fnTVjjK<X^:Xoi3a3Y73
+I>TJg@H>N[1B=W[5RSgMMU1
+V@UL5=J@:?GaJCFX4jVmT82
+R1
+R2
+8../../../../../../rtl_sea/cpu/rtl/spm.v
+F../../../../../../rtl_sea/cpu/rtl/spm.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vtimer
+!i10b 1
+!s100 5]IXTklUH`z>23TYie]EX2
+I[`Io4mlJ1QhRmLzQe0JB71
+V0GRF]IPJo^9hmhMeWa;:]1
+R1
+R2
+8../../../../../../rtl_sea/io/timer/rtl/timer.v
+F../../../../../../rtl_sea/io/timer/rtl/timer.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vx_s3e_dcm
+!i10b 1
+!s100 =lHg0SEBCMkWD2S:YzJ2W2
+I0=GL]:TV7nF]L10aJdQ`31
+VAoLloNQ>`l^Y3c;DoG>=m3
+R1
+R2
+8../../../../../../rtl_sea/top/lib/x_s3e_dcm.v
+F../../../../../../rtl_sea/top/lib/x_s3e_dcm.v
+L0 15
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
+vx_s3e_sprom
+!i10b 1
+!s100 ]ziIZ62BND=9EoS=97Dhh2
+IVF3VKP2;WWCSTQIT05HL12
+Vl>9CbOAKdSW@dmc`k[JL;0
+R1
+R2
+8../../../../../../rtl_sea/top/lib/x_s3e_sprom.v
+F../../../../../../rtl_sea/top/lib/x_s3e_sprom.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+R7
+R8
