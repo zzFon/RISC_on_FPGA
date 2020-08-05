@@ -20,12 +20,14 @@
 ------**decoder.v**：decoder 模块                                                                  
 ------**distribute.v**：distribute 模块  
 ------**IO_reg.v**：IO_reg 模块  
+  
 ---**SEA**：将内核移植到 SEA Board 所使用的工程  
 ------**project_5.xpr**：vivado 工程文件  
 ------**project_5.srcs**  
 ---------**sources_1**  
 ------------**new**  
 ---------------**top.v**：顶层模块  
+  
 ---**MPLAB_PRO**：MCU 所运行程序的工程  
 ------**PICPRO**  
 ---------**TESTT1.X**  
