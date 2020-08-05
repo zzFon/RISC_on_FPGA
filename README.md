@@ -5,9 +5,9 @@
 ## 平台
 **开发板**：Spartan Edge Accelerator Board(SEA Board)，搭载有Xilinx Spartan-7 FPGA、WiFi/BLE、8-bit ADC、6轴加速度计+陀螺仪等资源  
 **FPGA**：Xilinx Spartan-7 XC7215(xc7s15ftgb196-1)  
-**WiFi/BLE**：ESP32C
-FPGA EDA：Vivado 2018.3
-MCU IDE：MPLAB X IDE
+**WiFi/BLE**：ESP32C  
+**FPGA EDA**：Vivado 2018.3  
+**MCU IDE**：MPLAB X IDE(with XC8 Compiler)
 
 ## 项目内容
 详见设计文档  
